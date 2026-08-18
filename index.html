@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id ="top">
 
   <div class="cursor-glow"></div>
 
@@ -124,10 +124,33 @@
 
             </div>
 
+            <div class="portfolio-filters">
+
+    <button class="filter-button active" data-filter="all">
+        All
+    </button>
+
+    <button class="filter-button" data-filter="branding">
+        Branding
+    </button>
+
+    <button class="filter-button" data-filter="web">
+        Web Design
+    </button>
+
+    <button class="filter-button" data-filter="social">
+        Social Media
+    </button>
+
+    <button class="filter-button" data-filter="creative">
+        Creative
+    </button>
+
+</div>
 
             <div class="portfolio-grid">
 
-                <article class="project-card">
+                <article class="project-card category-link" data-category="branding">
 
                     <div class="project-image">
                         <img src="images/project-1.jpg" alt="Brand identity project">
@@ -147,7 +170,7 @@
                 </article>
 
 
-                <article class="project-card">
+                <article class="project-card category-link" data-category="web">
 
                     <div class="project-image">
                         <img src="images/project-2.jpg" alt="Digital design project">
@@ -167,7 +190,7 @@
                 </article>
 
 
-                <article class="project-card">
+                <article class="project-card category-link" data-category="social">
 
                     <div class="project-image">
                         <img src="images/project-3.jpg" alt="Social media design project">
@@ -187,7 +210,7 @@
                 </article>
 
 
-                <article class="project-card">
+                <article class="project-card category-link" data-category="creative">
 
                     <div class="project-image">
                         <img src="images/project-4.jpg" alt="Creative design project">
@@ -266,45 +289,570 @@
 
         </section>
 
+   <!--TOOLS-->
 
-        <!-- Contact -->
-        <section id="contact" class="contact-section">
+<section class="tools-section">
+
+    <div class="tools-container">
+
+        <div class="tools-heading">
 
             <p class="eyebrow">
-                HAVE A PROJECT?
+                TOOLS & TECHNOLOGY
             </p>
 
             <h2>
-                Let's create something
-                <span>amazing.</span>
+                My <span>Stack.</span>
             </h2>
 
-            <p>
-                Have a project, collaboration, or creative idea?
-                I'd love to hear about it.
+        </div>
+
+
+        <div class="tools-list">
+
+            <div class="tool-item">
+
+                <span class="tool-name">
+                    HTML5
+                </span>
+
+                <span class="tool-type">
+                    DEVELOPMENT
+                </span>
+
+            </div>
+
+
+            <div class="tool-item">
+
+                <span class="tool-name">
+                    CSS3
+                </span>
+
+                <span class="tool-type">
+                    DEVELOPMENT
+                </span>
+
+            </div>
+
+
+            <div class="tool-item">
+
+                <span class="tool-name">
+                    JavaScript
+                </span>
+
+                <span class="tool-type">
+                    DEVELOPMENT
+                </span>
+
+            </div>
+
+
+            <div class="tool-item">
+
+                <span class="tool-name">
+                    WordPress
+                </span>
+
+                <span class="tool-type">
+                    WEB
+                </span>
+
+            </div>
+
+
+            <div class="tool-item">
+
+                <span class="tool-name">
+                    Figma
+                </span>
+
+                <span class="tool-type">
+                    DESIGN
+                </span>
+
+            </div>
+
+
+            <div class="tool-item">
+
+                <span class="tool-name">
+                    Adobe Photoshop
+                </span>
+
+                <span class="tool-type">
+                    DESIGN
+                </span>
+
+            </div>
+
+
+            <div class="tool-item">
+
+                <span class="tool-name">
+                    Adobe Illustrator
+                </span>
+
+                <span class="tool-type">
+                    DESIGN
+                </span>
+
+            </div>
+
+
+            <div class="tool-item">
+
+                <span class="tool-name">
+                    Canva
+                </span>
+
+                <span class="tool-type">
+                    DESIGN
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- Contact -->
+<section
+    class="contact-section"
+    id="contact"
+>
+
+    <div class="contact-glow"></div>
+
+    <div class="contact-container">
+
+        <div class="contact-heading">
+
+            <p class="eyebrow">
+                HAVE A PROJECT IN MIND?
             </p>
 
-            <a href="mailto:hello@example.com" class="primary-button">
-                Start a Conversation
+            <h2>
+                Let's make
+                <span>something great.</span>
+            </h2>
+
+            <p class="contact-description">
+                Whether you're looking for a graphic
+                designer, web designer, or creative
+                developer, I'd love to hear about your
+                project.
+            </p>
+
+        </div>
+
+
+        <div class="contact-actions">
+
+            <!-- EMAIL -->
+
+            <a
+                href="mailto:laineyrivers7777@gmail.com"
+                class="contact-email"
+            >
+
+                <span class="contact-label">
+                    EMAIL ME
+                </span>
+
+                <span class="contact-address">
+                    laineyrivers7777@gmail.com
+                </span>
+
+                <span class="contact-arrow">
+                    ↗
+                </span>
+
             </a>
 
-        </section>
+
+            <!-- COPY EMAIL -->
+
+            <button
+                class="copy-email"
+                id="copyEmail"
+                data-email="laineyrivers7777@gmail.com"
+            >
+
+                <span>
+                    COPY EMAIL
+                </span>
+
+                <span>
+                    ⧉
+                </span>
+
+            </button>
+
+        </div>
+
+
+        <!-- SOCIAL LINKS -->
+
+        <div class="social-links">
+
+            <a
+                href="https://www.linkedin.com/in/lainey-rivers-17610b392/"
+                target="_blank"
+            >
+                LinkedIn
+                <span>↗</span>
+            </a>
+
+            <a
+                href="https://github.com/lainey-rivers"
+                target="_blank"
+            >
+                GitHub
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
 
     </main>
 
+    <!--FOOTER-->
 
-    <footer>
+<footer class="site-footer">
 
-        <p>
-            © 2026 Lainey Rivers. All rights reserved.
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <a
+                href="#top"
+                class="footer-logo"
+            >
+                Lainey Rivers<span>.</span>
+            </a>
+
+            <p>
+                Graphic Designer · Web Designer
+                · Front-End Developer
+            </p>
+
+        </div>
+
+
+        <div class="footer-navigation">
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#skills">
+                Skills
+            </a>
+
+            <a href="#work">
+                Work
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 LR. All rights reserved.
+            </span>
+
+            <span>
+                Designed & built with intention.
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- Category Gallery -->
+
+<section class="category-gallery" id="categoryGallery">
+
+    <div class="category-gallery-header">
+
+        <button class="back-button" id="categoryBack">
+            ← Back to Work
+        </button>
+
+        <p class="eyebrow" id="categoryEyebrow">
+            SELECTED WORK
         </p>
 
-        <p>
-            Designed & built with HTML, CSS & JavaScript.
+        <h2 id="categoryTitle">
+            Branding
+        </h2>
+
+        <p id="categoryDescription">
+            A collection of visual identities, brand systems,
+            and creative direction projects.
         </p>
 
-    </footer>
+    </div>
 
+
+    <div class="category-grid" id="categoryGrid">
+
+      </div>
+    </section>
+
+      <!-- Project Case Study -->
+
+<section
+    class="project-case-study"
+    id="projectCaseStudy"
+>
+
+    <div class="case-study-container">
+
+        <button
+            class="back-button"
+            id="caseStudyBack"
+        >
+            ← Back to Category
+        </button>
+
+
+        <div class="case-study-hero">
+
+            <div class="case-study-image">
+
+                <img
+                    id="caseStudyImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+
+            <div class="case-study-intro">
+
+                <p
+                    class="eyebrow"
+                    id="caseStudyCategory"
+                >
+                    BRANDING
+                </p>
+
+                <h2 id="caseStudyTitle">
+                    Project Title
+                </h2>
+
+                <p id="caseStudyDescription">
+                    Project description.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="case-study-meta">
+
+            <div>
+
+                <span>
+                    YEAR
+                </span>
+
+                <strong id="caseStudyYear">
+                    2026
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    TOOLS
+                </span>
+
+                <strong id="caseStudyTools">
+                    Photoshop
+                </strong>
+
+            </div>
+
+        </div>
+
+        <!-- Project Gallery -->
+
+<div class="case-study-gallery">
+
+    <div class="case-study-gallery-header">
+
+        <p class="eyebrow">
+            PROJECT GALLERY
+        </p>
+
+        <h3>
+            Selected Visuals
+        </h3>
+
+    </div>
+
+    <div
+        class="case-study-gallery-grid"
+        id="caseStudyGallery"
+    >
+
+        <!-- Images added with JavaScript -->
+
+    </div>
+
+</div>
+
+        <div class="case-study-section">
+
+            <p class="eyebrow">
+                THE CHALLENGE
+            </p>
+
+            <h3>
+                Creating the right visual direction.
+            </h3>
+
+            <p id="caseStudyChallenge">
+                Project challenge.
+            </p>
+
+        </div>
+
+
+        <div class="case-study-section">
+
+            <p class="eyebrow">
+                THE PROCESS
+            </p>
+
+            <h3>
+                From concept to final design.
+            </h3>
+
+            <p id="caseStudyProcess">
+                Project process.
+            </p>
+
+        </div>
+
+
+        <div class="case-study-section">
+
+            <p class="eyebrow">
+                THE RESULT
+            </p>
+
+            <h3>
+                Bringing the idea to life.
+            </h3>
+
+            <p id="caseStudyResult">
+                Project result.
+            </p>
+
+        </div>
+
+
+        <button
+            class="back-button"
+            id="caseStudyBackBottom"
+        >
+            ← Back to Category
+        </button>
+
+    </div>
+
+</section>
+
+        <!-- Projects will be added by JavaScript -->
+
+    </div>
+
+</section>
+
+<!--IMAGE LIGHTBOX-->
+
+<div
+    class="image-lightbox"
+    id="imageLightbox"
+>
+
+    <button
+        class="lightbox-close"
+        id="lightboxClose"
+        aria-label="Close image"
+    >
+        ×
+    </button>
+
+
+    <button
+        class="lightbox-arrow lightbox-prev"
+        id="lightboxPrev"
+        aria-label="Previous image"
+    >
+        ←
+    </button>
+
+
+    <div class="lightbox-content">
+
+        <img
+            id="lightboxImage"
+            src=""
+            alt=""
+        >
+
+
+        <div
+            class="lightbox-counter"
+            id="lightboxCounter"
+        >
+            01 / 01
+        </div>
+
+    </div>
+
+
+    <button
+        class="lightbox-arrow lightbox-next"
+        id="lightboxNext"
+        aria-label="Next image"
+    >
+        →
+    </button>
+
+</div>
+
+<!-- BACK TO TOP -->
+
+<button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="Back to top"
+>
+    ↑
+</button>
 
     <script src="script.js"></script>
 
